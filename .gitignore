@@ -1,0 +1,32 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+*.manifest
+
+# 可执行文件（在 GitHub Releases 中发布，不进入源码仓库）
+*.exe
+*.msi
+
+# 运行时文件（本机配置与日志）
+config.ini
+logs/
+*.log
+*.log.*
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
